@@ -1,6 +1,6 @@
 describe('automation website test', () => {
   it('submit customer form', () => {
-    cy.visit('https://automationintesting.online/');
+    cy.visit('https://automationintesting.online/')
     cy.contains('Let me hack!').click()
 
     // enter information into the form
